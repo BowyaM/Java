@@ -10,9 +10,9 @@ public class PrimeNumber {
         else
             System.out.println(num+" is not a prime number"); 
     }
-
-	public static boolean isPrime(int n)
-	{
+	
+    public static boolean isPrime(int n)
+    {
         if (n<=1)
             return false;
         for(int i=2;i<=n/2;i++)
@@ -21,6 +21,6 @@ public class PrimeNumber {
                 return false;
         }
         return true;
-	}
+    }
 
 }
