@@ -13,7 +13,7 @@ public class PrimeNumber {
         scanner.close();
     }
 
-	public static boolean isPrime(int n)
+    public static boolean isPrime(int n)
 	{
         if (n<=1)
             return false;
